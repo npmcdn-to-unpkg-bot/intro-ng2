@@ -1,0 +1,20 @@
+<!-- TEMPLATE DE APP-->
+
+<h1> Demo </h1>
+
+<app-topbar
+        [username]="appUsername"
+    (logout)="hideTopbar()"
+    (profileEvent)="openProfile()"
+>
+</app-topbar>
+
+<!--<input type="text" (keyup)="updateName()"/>-->
+
+<app-menu [items]="items" ></app-menu>
+
+
+
+
+
+

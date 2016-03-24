@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: Geneva, Arial, sans-serif;
+    min-height: 100vh;
+    margin:0;
+    padding:0;
+}
+
+
+
+
+

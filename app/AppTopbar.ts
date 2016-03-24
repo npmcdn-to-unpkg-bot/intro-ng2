@@ -3,7 +3,7 @@ import {Component, EventEmitter, Output, Input} from 'angular2/core';
 
 @Component({
  selector:'app-topbar',
-    templateUrl:'./app/topbar.template.html',
+    templateUrl:'./app/apptopbar.html',
     styleUrl:'./app/topbar.css',
     events:['logout', 'profileEvent']
 })

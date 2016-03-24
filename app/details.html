@@ -1,0 +1,12 @@
+<style>
+    :host{
+        flex:1;
+        background: #EFEFEF;
+        padding: 20px;
+    }
+</style>
+
+<div id='details' *ngIf="selectedItem">
+    <p>User {{selectedItem.id}}</p>
+    <h2>{{selectedItem.prenom}}</h2>
+</div>

@@ -1,0 +1,19 @@
+<style>
+    :host{
+        background: #ADF;
+        padding:10px;
+        width: 14vw;
+    }
+
+    li{
+        margin:6px;
+        list-style: none;
+    }
+</style>
+
+<ul>
+    <li *ngFor="#item of items">
+        <div>
+            <a href="#" (click)="selectItem(item)" >{{item.prenom}}</a></div>
+    </li>
+</ul>
